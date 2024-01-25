@@ -1,71 +1,52 @@
-/*Index Page Start*/
-body{
-    background-color: #8a0022;
-}
-.site-font{
-    font-family: 'Inter', sans-serif;
-}
-.nav-link-font{
-    padding: 20px 10px;
-    font-size: 14px;
-    text-decoration: none!important;
-    line-height: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #333 !important;
-}
-.footer{
-    padding: 2rem 1rem;
-    margin: 0 -1rem;
-    width: calc(100% + 2rem);
-    background-color: var(--color-black);
-    color: var(--color-light-bg);
-}
-/*Index Page End*/
-.line{
-    width: 87px;
-    border: 2px solid #8a0022 !important;
-}
-.about-text{
-    margin: 1.5rem 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
     font-size: 18px;
-    line-height: 26px;
-    letter-spacing: -.03em;
 }
-.timeline {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+body{
+    background-color: #601920;
 }
-.timeline-item {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    position: relative;
-}
-.timeline-icon {
-    width: 28px;
-    height: 28px;
-    background-color: #8a0022;
-    border-radius: 50%;
+.wrapper{
+    width: 450px;
+    background-color: #ffffff;
+    padding: 70px 40px;
     position: absolute;
-    left: 12px;
-    top: 0;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
 }
-.timeline-content {
-    border-left: 2px solid transparent;
-    padding-left: 40px;
-    position: relative;
+.container{
+    width: 45%;
 }
-.timeline-content::before {
-    content: '';
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #601920;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+input:focus{
+    border-color: #601920;
+}
+p{
+    padding: 20px 40px;
     position: absolute;
-    top: 30px;
-    bottom: 0;
-    left: 18px;
-    width: 2px;
-    background-color: #8a0022;}
+    transform: translate(-50%,-50%);
+    left: 25%;
+    top: 15%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+
+}
